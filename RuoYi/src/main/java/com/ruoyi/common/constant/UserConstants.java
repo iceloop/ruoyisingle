@@ -11,6 +11,7 @@ public class UserConstants
     /** 正常状态 */
     public static final String NORMAL = "0";
 
+
     /** 异常状态 */
     public static final String EXCEPTION = "1";
 
