@@ -29,6 +29,8 @@ public class CommonController
         {
             String filePath = RuoYiConfig.getDownloadPath() + fileName;
             System.out.println("filePath: " + filePath);
+            System.out.println("realFileName: " + realFileName);
+            System.out.println("delete: " + delete);
             response.setCharacterEncoding("utf-8");
             response.setContentType("multipart/form-data");
             response.setHeader("Content-Disposition", "attachment;fileName=" + setFileDownloadHeader(request, realFileName));
