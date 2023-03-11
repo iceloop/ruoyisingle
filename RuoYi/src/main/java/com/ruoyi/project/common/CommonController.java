@@ -31,6 +31,7 @@ public class CommonController
             System.out.println("filePath: " + filePath);
             System.out.println("realFileName: " + realFileName);
             System.out.println("delete: " + delete);
+            System.out.println("response: " + response);
             response.setCharacterEncoding("utf-8");
             response.setContentType("multipart/form-data");
             response.setHeader("Content-Disposition", "attachment;fileName=" + setFileDownloadHeader(request, realFileName));
